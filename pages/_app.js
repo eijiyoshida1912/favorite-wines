@@ -1,12 +1,4 @@
-import {
-  ChakraProvider,
-  Container,
-  Center,
-  Text,
-  Box,
-  Flex,
-  Icon,
-} from "@chakra-ui/react";
+import { ChakraProvider, Container, Center } from "@chakra-ui/react";
 import "../styles/globals.css";
 
 import Header from "../components/Header";

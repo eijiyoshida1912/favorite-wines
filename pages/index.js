@@ -2,15 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import fetch from "isomorphic-fetch";
-import { FaStar, FaAngleRight } from "react-icons/fa";
-import {
-  Box,
-  Button,
-  ButtonGroup,
-  SimpleGrid,
-  Flex,
-  Center,
-} from "@chakra-ui/react";
+import { FaStar } from "react-icons/fa";
+import { Box, SimpleGrid, Flex } from "@chakra-ui/react";
 
 Home.getInitialProps = async () => {
   const res = await fetch(`https://api.sampleapis.com/wines/reds`);

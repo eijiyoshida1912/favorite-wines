@@ -1,12 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import {
   Box,
   Button,
-  ButtonGroup,
-  SimpleGrid,
   Flex,
-  Center,
   Text,
   Breadcrumb,
   BreadcrumbItem,
@@ -39,7 +36,6 @@ export default function Post({ post }) {
     localStorage.setItem("likes", JSON.stringify(datalist));
   };
 
-  console.log(post);
   return (
     <>
       <Breadcrumb mb={6} fontSize="sm">
